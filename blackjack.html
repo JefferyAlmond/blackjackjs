@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Blackjack</title>
+<link rel="stylesheet" href="blackjack.css">
+</head>
+
+<body>
+
+
+<div id="playerhand">
+<img id="playerCard0" style="width:100px;height:150px;">
+<img id="playerCard1" style="width:100px;height:150px;">
+<img id="playerCard2" style="width:100px;height:150px;">
+<img id="playerCard3" style="width:100px;height:150px;">
+<img id="playerCard4" style="width:100px;height:150px;">
+</div>
+
+<div id="score">
+<p id="playerCash"></p>
+<p id="playerBet"></p>
+<p id="playerScore"></p>
+<p id="dealerScore"></p>
+<button id="increaseBet" type="button" onclick="increaseBet()">+10</button>
+<button id="decreaseBet" type="button" onclick="decreaseBet()">-10</button>
+<br>
+<button id="shoeMode" type="button" onclick="shoeToggle()">Shoe Mode ON</button>
+</div>
+
+<div id="actions">
+<button id="hit" type="button" onclick="playerHit()">HIT</button><br>
+<button id="stand" type="button" onclick="playerStand()">STAND</button> 
+</div>
+
+<br>
+<div id="gameInfo">
+<button id="newGame" type="button" onclick="newGame()">NEW GAME</button>
+<p id="winner"><br></p>
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<div id="dealerhand">
+<img id="dealerCard0" style="width:100px;height:150px;">
+<img id="dealerCard1" style="width:100px;height:150px;">
+<img id="dealerCard2" style="width:100px;height:150px;">
+<img id="dealerCard3" style="width:100px;height:150px;">
+<img id="dealerCard4" style="width:100px;height:150px;">
+</div>
+
+<script src="blackjack.js"></script>
+
+</body>
