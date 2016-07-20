@@ -1,0 +1,36 @@
+body {
+	font-family: arial, helvetica, sans-serif;
+	font-size: 14px;
+	background-color:green;
+}
+
+#playerhand {
+	padding: 20px;
+	text-align:center;
+}
+
+#dealerhand {
+	padding: 20px;
+	text-align:center;
+}
+
+#score{
+	color: yellow;
+	outline: yellow solid;
+	width: 200px;
+	padding: 10px;
+	float: left;
+}
+
+#actions{
+	float: right;
+	outline: yellow solid;
+	width: 100px;
+	padding: 10px;
+	text-align:center;
+}
+
+#gameInfo{
+	color: yellow;
+	text-align:center;
+}
